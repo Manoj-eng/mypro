@@ -186,3 +186,62 @@ text-decoration: none;
         padding: 5px;
     }
 
+    .footerRight{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+
+
+    @media only screen and (min-width: 320px) and (max-width: 767px){
+    .valueBG-img {
+        background: #ea144e;
+         height: auto; 
+        padding: 40px 0;
+    }
+
+    .left-img img{
+        width: 100%;
+    }
+    .right-text {
+        padding: 50px 0px;
+        margin-left: 0px; 
+        color: #3f3f3f;
+    }
+
+    .btn-group {
+        padding: 5px 38px;
+        /* border: 2px solid #fff; */
+        color: #3f3f3f;
+    }
+
+    .ourValue {
+        margin-top: -44px;
+        color: #fff;
+    }
+
+    .footerRight{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footerLeft ul li {
+        display: block; 
+        list-style-type: none;
+        padding: 0px 10px;
+        border-right: none;
+        margin: 0;
+    }
+    .footerRight ul li{
+        display: inline;
+        padding: 50x 10px;
+        list-style-type: none;
+        
+        
+    }
+    
+    .copyright{
+        text-align: center;
+    }
+}
+ }
